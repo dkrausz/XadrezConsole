@@ -15,5 +15,10 @@ namespace Xadrez_console.tabuleiro
             Tabuleiro = tabuleiro;
             QteMovimentos = 0;  
         }
+
+        public void IncrementarMovimentos()
+        {
+            QteMovimentos++;
+        }
     }
 }
